@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: #fff;
+}
+main{
+    width: 70%;
+    margin: 40px 200px;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+}
+ul{
+    margin-left: 30px;
+}
+ul li{
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 1em;
+    font-weight: 600;
+    margin-left: 10px;
+    color: rgba(128, 128, 128, 0.555);
+}
+
+.nav-img{
+    display: flex;
+    align-items: center;
+    position: relative;
+    
+}
+.logo-img img{
+    width: 40px;
+    height: 40px;
+  margin: 0 20px;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+    
+}
+#cart-count{
+    position: absolute;
+    top: 0;
+    text-align: center;
+    background-color: rgba(255, 102, 0, 0.959);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    opacity: 0;
+    
+}
+.on{
+    opacity: 1;
+}
+.container{
+    display: flex;
+    margin: 70px 0;
+}
+.container-img img{
+     width: 350px;
+      height: 350px;
+      
+      border-radius: 10px;
+}
+.container-txt{
+    margin: 65px 70px;
+
+}
+.container-txt h4{
+     font-size: 0.7em;
+    color: gray;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.container-txt h1{
+    margin-bottom: 20px;
+}
+.container-txt p{
+  font-size: 0.8em;
+   color: gray;
+   font-weight: 700;
+   width: 400px;
+   line-height: 1.5;
+}
+.spn{
+    margin: 12px 0;
+}
+.spn span:last-child{
+   background-color: black;
+   width: 30px;
+   height: 30px;
+   color: #fff;
+   padding: 5px 6px;
+   border-radius: 7px;
+   margin: 0 5px;
+}
+.spn p{
+     font-size: 18px;
+     font-weight: 500;
+     margin: 5px 0;
+     text-decoration: line-through;
+}
+.expression{
+    display: flex;
+}
+.adding{
+    display: flex;
+    width: 100px;
+    background-color: rgba(220, 220, 220, 0.185);
+    align-items: center;
+    border-radius: 7px;
+}
+.adding p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.767);
+    text-align: center;
+}
+.adding img{
+    width: 22px;
+    height: 22px;
+    
+}
+
+
+.expression #minus{
+    margin: 0 10px;
+}
+.expression #add{
+    margin: 0 10px;
+}
+button{
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+    padding: 5px 15px;
+    background-color: rgba(255, 102, 0, 0.959);
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+button img{
+    width: 15px;
+}
+.shoes{
+    display: flex;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+.shoes img{
+    width: 80px;
+    height:80px;
+    margin: 0 5px;
+}
